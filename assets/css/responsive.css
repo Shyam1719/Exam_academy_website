@@ -14,7 +14,7 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .logo img{
+    .logo a img{
         width: 100px;
         height: 50px;
     }
@@ -24,7 +24,7 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-    .logo img{
+    .logo a img{
         width: 100px;
         height: 50px;
     }
@@ -34,7 +34,7 @@
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
-.logo img{
+.logo a img{
     width: 100px;
     height: 50px;
 }
